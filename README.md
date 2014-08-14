@@ -547,7 +547,7 @@ Let's create a **photos_controller.rb**
 	  def show
 	  	
 	  end
-	
+	private
 	  def photo_params
 	    params.require(:photo).permit(:image)
 	  end
